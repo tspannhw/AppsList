@@ -16,3 +16,6 @@ https://github.com/zauberzeug/nicegui/tree/main/examples
 All the covid
 https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
 
+When people enter the room
+https://github.com/saimj7/People-Counting-in-Real-Time
+

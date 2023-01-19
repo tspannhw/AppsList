@@ -32,3 +32,8 @@ https://github.com/openraildata/td-trust-example-python3
 Transit Monitoring
 https://www.clouddataops.dev/transit-monitoring
 
+Discord4J
+
+discord messages send
+
+Also look at other messaging / chat systems

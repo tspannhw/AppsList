@@ -19,3 +19,16 @@ https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_c
 When people enter the room
 https://github.com/saimj7/People-Counting-in-Real-Time
 
+Social distance detecting
+https://github.com/saimj7/Social-Distancing-Detection-in-Real-Time
+
+Weather Alerts
+https://alerts.weather.gov/
+
+Rail Data
+https://wiki.openraildata.com/index.php/Rail_Data_FAQ
+https://github.com/openraildata/td-trust-example-python3
+
+Transit Monitoring
+https://www.clouddataops.dev/transit-monitoring
+

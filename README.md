@@ -13,3 +13,6 @@ https://www.weatherapi.com/docs/
 Python GUI Applications
 https://github.com/zauberzeug/nicegui/tree/main/examples
 
+All the covid
+https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_daily_reports
+

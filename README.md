@@ -37,3 +37,7 @@ Discord4J
 discord messages send
 
 Also look at other messaging / chat systems
+
+
+https://pypi.org/project/slack-sdk/
+

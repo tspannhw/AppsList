@@ -41,3 +41,7 @@ Also look at other messaging / chat systems
 
 https://pypi.org/project/slack-sdk/
 
+
+build chatgpt for pulsar, flink, nifi, kafka, spark
+https://github.com/danthelion/chat-dbt
+

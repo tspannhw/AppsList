@@ -50,3 +50,7 @@ https://github.com/danthelion/chat-dbt
 https://canarytokens.org/generate
 
 
+
+https://openskynetwork.github.io/opensky-api/
+
+https://openskynetwork.github.io/opensky-api/rest.html

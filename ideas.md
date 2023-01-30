@@ -31,4 +31,56 @@ Note: This is a high-level guide, and the details of the implementation will dep
 
 Build and diagram an Apache NiFi flow to ingest stock data into Apache Iceberg in real-time
 
+Here is a high-level diagram of an Apache NiFi flow to ingest stock data in real-time into Apache Iceberg:
+
+Get stock data: Use an API or scrape a website to get the latest stock data in real-time.
+
+Store the data: Store the stock data in a temporary location, such as a local file system, Amazon S3, or a database.
+
+Apache NiFi flow:
+
+Data source: Use the GetHTTP processor in Apache NiFi to get the stock data from the temporary location.
+Data conversion: Use the ConvertRecord processor to convert the data from its original format (e.g. CSV) to a more optimized format, such as Avro or Parquet.
+Data aggregation: Use the AggregateRecord processor to aggregate the data based on a specific key (e.g. stock symbol) to reduce the data size and improve performance.
+Data sink: Use the PutIceberg processor to sink the aggregated data into Apache Iceberg.
+Monitor and optimize the flow: Monitor the flow to ensure that it is working as expected, and optimize it as needed to improve performance and stability.
+
+Note: This is a high-level diagram, and the details of the implementation will depend on the specific requirements and constraints of your use case.
+
+* or *
+
+Here is a high-level diagram of an Apache NiFi flow to ingest stock data into Apache Iceberg in real-time:
+
+Get data from source: Use the GetHTTP processor to retrieve stock data from a public API or a website that provides stock data.
+
+Parse data: Use the EvaluateJsonPath processor to extract the relevant information from the retrieved data and convert it into a structured format such as CSV or Avro.
+
+Convert data format: Use the ConvertRecord processor to convert the data into a more optimized format, such as Parquet, if necessary.
+
+Write to Apache Iceberg: Use the PutIceberg processor to write the data into Apache Iceberg. Apache Iceberg is a storage layer for big data that provides data management and metadata management on top of distributed file systems or cloud object stores.
+
+Monitor the flow: Use the Apache NiFi UI to monitor the flow and ensure that it is running smoothly.
+
+Note: This is a high-level diagram, and the details of the implementation will depend on the specific requirements and constraints of your use case. For example, you may need to add additional processors to handle error handling, data validation, or data enrichment.
+
+** or **
+
+Here is a high-level diagram and description of an Apache NiFi flow to ingest stock data into Apache Iceberg in real-time:
+
+Stock data source: The stock data can be sourced from a stock exchange API or a financial data provider.
+
+GetHTTP processor: Use the Apache NiFi GetHTTP processor to fetch the stock data from the source.
+
+ExtractText processor: Use the Apache NiFi ExtractText processor to extract the relevant data from the HTTP response.
+
+ConvertRecord processor: Use the Apache NiFi ConvertRecord processor to convert the data from its original format to a format that can be stored in Apache Iceberg (e.g. Parquet).
+
+PutHDFS processor: Use the Apache NiFi PutHDFS processor to write the processed data to HDFS.
+
+Apache Iceberg: Use Apache Iceberg to sink the data from HDFS into the data lake. Apache Iceberg provides data management and metadata management on top of distributed file systems or cloud object stores.
+
+Monitor: Monitor the flow to ensure that it is working as expected and to identify and resolve any issues that arise.
+
+Note: This is a high-level diagram and the details of the implementation will depend on the specific requirements and constraints of your use case. Additionally, the Apache NiFi flow can be optimized and scaled to handle the volume and velocity of the stock data.
+
 

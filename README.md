@@ -56,3 +56,10 @@ https://openskynetwork.github.io/opensky-api/
 https://openskynetwork.github.io/opensky-api/rest.html
 https://openskynetwork.github.io/opensky-api/java.html
 https://openskynetwork.github.io/opensky-api/python.html
+
+
+
+stateless
+
+https://github.com/apache/nifi/blob/main/nifi-stateless/nifi-stateless-assembly/README.md
+
